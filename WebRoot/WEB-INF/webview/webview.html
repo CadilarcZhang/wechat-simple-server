@@ -1,0 +1,31 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webview.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <script src="../js/jquery.min.js"></script>
+  </head>
+  
+  <body>
+  	<div class="webview-container">
+  		<iframe id="iframe" src=""></iframe>
+  	</div>
+  </body>
+  
+<!--   <script type="text/javascript"> -->
+<!--   	$(function() { -->
+<!--   		$("#iframe").attr("src", ) -->
+<!--   	});	 -->
+<!--   </script> -->
+  
+</html>
